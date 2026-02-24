@@ -15,6 +15,6 @@ class Lexer {
 
    protected:
       string flux;
-      int tete;
+      size_t tete;
       Symbole * tampon;
 };
