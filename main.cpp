@@ -3,8 +3,9 @@
 #include "automate.h"
 
 int main(void) {
-   string chaine("60*(3+(1*2))");
-
+   string chaine;
+   cout << "Veuillez entrer une expression : ";
+   cin >> chaine;
    /*
    Lexer l(chaine);
 
