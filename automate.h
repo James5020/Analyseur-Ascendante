@@ -11,10 +11,10 @@ class Automate{
     Automate(string chaine);
     Automate();
     
-    void executer(); // Lance l'analyse
+    void executer();
     void decalage(Symbole * s, Etat * e);
     void reduction(int n, Symbole * s);
-    void transition(Etat * e); // Utilisé par les non-terminaux
+    void transition(Etat * e); 
     void accepter();
 
 protected:
